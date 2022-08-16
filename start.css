@@ -92,6 +92,7 @@ header{
 
 .header-content h2{
     font-size: 4vmin;
+    margin-left: -80px;
 }
 
 .line{
@@ -100,11 +101,13 @@ header{
     background-color: rgb(124, 56, 187);
     margin: 10px auto;
     border-radius: 5px;
+    /* margin-right: 90px; */
 }
 
 .header-content h1{
     font-size: 7vmin;
     margin-top: 50px;
+    margin-left: -75px;
     margin-bottom: 30px;
 }
 
@@ -116,11 +119,10 @@ header{
 }
 
 /* Events */
-
 section{
     width: 80%;
     margin: 80px auto;
-   
+
 }
 
 .title{
@@ -169,44 +171,9 @@ p{
     width: 50%;
 }
 
-.about{
-    width: 100%;
-    height: 80vh;
-    background-color: rgb(61, 59, 59);
-}
 
 /* About */
-
-/* .about{
-    background-color: rgb(59, 59, 59);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-}
-.about h1{
-    display: flex;
-    font-size: 45px;
-    color: rgb(157, 129, 184);
-    text-align: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.about p{
-    display: flex;
-    flex-wrap: wrap;
-    color: whitesmoke;
-    max-width: 450px;
-    justify-content: center;
- 
-}
-
-.ab img{
-    width: 520px;
-    height: 500px;
-} */
-
-.home-about{
+.about{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -214,18 +181,18 @@ p{
     border-radius: 50px;
 }
 
-.home-about .content{
+.about .content{
     flex: 1 1 41rem;
     padding: 3rem;
 }
 
-.home-about .content h3{
+.about .content h3{
     text-align: center;
     font-size: 3rem;
     color: rgb(220, 192, 245);
 }
 
-.home-about .content p{
+.about .content p{
     justify-content: center;
     font-size: 1.5rem;
     padding: 1rem 0;
@@ -294,32 +261,22 @@ p{
 }
 
 /* social medias */
-.socials a{
-    width: 37px;
-    height: 37px;
-    border-radius: 50%;
-    display: inline-flex;
-    font-size: 17px;
-    color: #eee;
-    cursor: pointer;
-    margin-right: 20px;
-    background-color: rgba(255, 255, 255, 0.1);
-    margin-bottom: 35px;
+.socials{
+    margin-left: -170px;
 }
-/* .socials a:hover{
-    transform: scale(1.1);
-    background: #d821d8;
-    transition: .4s;
-} */
-
-.fa-facebook{
-    font-size: 37px;
+.socials img{
+    margin-left: 50px;
+    align-items: center; 
+}
+.fb{
+    height: 20px;
 }
 
-.fa-instagram{
-    font-size: 37px;
+.tik{
+    height: 20px;
 }
 
-.fa-envelope{
-    font-size: 37px;
+.mail{
+    height: 30px;
+    margin-bottom: -5px;
 }

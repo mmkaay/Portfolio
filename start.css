@@ -92,7 +92,6 @@ header{
 
 .header-content h2{
     font-size: 4vmin;
-    margin-left: -80px;
 }
 
 .line{
@@ -107,7 +106,6 @@ header{
 .header-content h1{
     font-size: 7vmin;
     margin-top: 50px;
-    margin-left: -75px;
     margin-bottom: 30px;
 }
 
@@ -261,9 +259,6 @@ p{
 }
 
 /* social medias */
-.socials{
-    margin-left: -170px;
-}
 .socials img{
     margin-left: 50px;
     align-items: center; 

@@ -77,7 +77,7 @@ header{
     width: 105vw;
     height: 100vh;
     background-image: url(Images/bg.jpg);
-    background-position: bottom;
+    background-position: center;
     background-size: cover ;
     display: flex;
     align-items: flex-end;
@@ -176,10 +176,17 @@ p{
 }
 
 /* About */
+
+/* .about{
+    background-color: rgb(59, 59, 59);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
 .about h1{
     display: flex;
     font-size: 45px;
-    color: whitesmoke;
+    color: rgb(157, 129, 184);
     text-align: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -191,9 +198,40 @@ p{
     color: whitesmoke;
     max-width: 450px;
     justify-content: center;
-
+ 
 }
 
+.ab img{
+    width: 520px;
+    height: 500px;
+} */
+
+.home-about{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(68, 64, 64);
+    border-radius: 50px;
+}
+
+.home-about .content{
+    flex: 1 1 41rem;
+    padding: 3rem;
+}
+
+.home-about .content h3{
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(220, 192, 245);
+}
+
+.home-about .content p{
+    justify-content: center;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    line-height: 2;
+    color: whitesmoke;
+}
 
 /* Grid Display Start*/
 .image-grid {
@@ -253,4 +291,35 @@ p{
     .nav-linksli{
         margin: 30px auto;
     }
+}
+
+/* social medias */
+.socials a{
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    display: inline-flex;
+    font-size: 17px;
+    color: #eee;
+    cursor: pointer;
+    margin-right: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-bottom: 35px;
+}
+/* .socials a:hover{
+    transform: scale(1.1);
+    background: #d821d8;
+    transition: .4s;
+} */
+
+.fa-facebook{
+    font-size: 37px;
+}
+
+.fa-instagram{
+    font-size: 37px;
+}
+
+.fa-envelope{
+    font-size: 37px;
 }
